@@ -106,6 +106,7 @@ nav button:hover{
         font-family: "Open Sans";
         font-weight: 700;
         font-size: 12px;
+        
     }
     
     main {
@@ -627,7 +628,7 @@ nav button:hover{
     }
     
     #intro-text button{
-        margin: 5% 15% 8% 15%;
+        margin: 5% 20% 8% 20%;
         height: 40px;
         border-radius: 50px;
         width: 200px;
