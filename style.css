@@ -15,6 +15,10 @@ html, body {
     overflow-x: hidden;
 }
 
+.cards p{
+    color:hsl(208, 11%, 55%)
+}
+
 nav button:hover{
     background-color: hsl(0, 0%, 98%);
     cursor: pointer;
@@ -45,7 +49,7 @@ nav button:hover{
     filter: invert(43%) sepia(87%) saturate(1084%) hue-rotate(294deg) brightness(101%) contrast(101%);
 }
 
-@media screen and (min-width:500px) and (max-width:1440px){
+@media screen and (min-width:780px) and (max-width:1440px){
     header {
         background-color: hsl(193, 100%, 96%);
         padding: 35px 50px;
@@ -123,17 +127,19 @@ nav button:hover{
         box-shadow: 1px 1px 5px rgb(218, 216, 216);
         border-radius: 12px;
         margin: 12px;
-        height: 50vh;
-        display:flex;
-        flex-direction: row;
+        height: 40vh;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
         padding: 5em;
         position: relative;
         justify-self: center;
+        align-content: center;
+        padding-top: 0;   
     }
     
     #img, #desc {
         width: 90%;
-        
+        height: 80%;
     } 
     
     #your-users #img, #grow-together #img {
@@ -297,7 +303,7 @@ nav button:hover{
     }
 }
 
-@media screen and (min-width:375px) and (max-width:500px){
+@media screen and (min-width:375px) and (max-width:780px){
     header {
         background-color: hsl(193, 100%, 96%);
         padding: 30px;
@@ -318,7 +324,7 @@ nav button:hover{
         background-color: white;
         border-radius: 50px;
         width: 100px;
-        height:25px;
+        height:40px;
         border: none;
         box-shadow: 0px 2px 5px  rgb(218, 216, 216);
         font-family: "Open Sans";
@@ -351,18 +357,18 @@ nav button:hover{
         margin: 10px 0;
         font-family: Poppins;
         font-size: 24px;
-        text-align: center;
+        text-align: left;
     }
     
     #intro-text p{
         margin: 20px 0;
-        text-align: center;
+        text-align: left;
         font-family: "Open Sans";
         font-weight: 400;
     }
     
     #intro-text button{
-        margin: 5% 20% 8% 20%;
+        margin: 5% 0 8% 0;
         height: 40px;
         border-radius: 50px;
         width: 200px;
