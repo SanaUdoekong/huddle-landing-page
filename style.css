@@ -45,7 +45,7 @@ nav button:hover{
     filter: invert(43%) sepia(87%) saturate(1084%) hue-rotate(294deg) brightness(101%) contrast(101%);
 }
 
-@media screen and (min-width:500px) and (max-width:1440px){
+@media screen and (min-width:375px) and (max-width:1440px){
     header {
         background-color: hsl(193, 100%, 96%);
         padding: 35px 50px;
@@ -119,7 +119,7 @@ nav button:hover{
     }
     
     .cards {
-        box-shadow: 0px 2px 5px rgb(218, 216, 216);
+        box-shadow: 1px 1px 5px rgb(218, 216, 216);
         border-radius: 12px;
         margin: 12px;
         height: 50vh;
@@ -129,7 +129,7 @@ nav button:hover{
         padding-right: 20px;
         position: relative;
         justify-content: space-between;
-        /* width:90%; */
+        width:70%;
     }
     
     #img, #desc {
@@ -184,7 +184,7 @@ nav button:hover{
         padding: 2em 0;
         height: 35%;
         margin: auto;
-        top: -90px;
+        top: -150px;
         bottom: 400px;
         box-shadow:  0px 2px 5px hsla(192, 100%, 9%, 0.452); 
         right: 0;
@@ -215,7 +215,7 @@ nav button:hover{
         flex-direction: row;
         justify-items: center;
         margin: 40px auto;
-        padding-top: 90px;
+        padding-top: 110px;
         width: 90%;
         font-family: "Open Sans";
         font-weight: 400;
@@ -318,8 +318,8 @@ nav button:hover{
     nav button {
         background-color: white;
         border-radius: 50px;
-        width: 200px;
-        height:20px;
+        width: 100px;
+        height:25px;
         border: none;
         box-shadow: 0px 2px 5px  rgb(218, 216, 216);
         font-family: "Open Sans";
@@ -331,7 +331,7 @@ nav button:hover{
     .hero-section {
         display: flex;
         flex-direction: column;
-        padding-top: 70px;
+        padding-top: 75px;
     }
     
     .hero-section img, #intro-text {
@@ -363,7 +363,7 @@ nav button:hover{
     }
     
     #intro-text button{
-        margin: 0 15%;
+        margin: 5% 15% 8% 15%;
         height: 40px;
         border-radius: 50px;
         width: 200px;
@@ -380,15 +380,16 @@ nav button:hover{
         margin: 0;
         justify-items: center;
         flex-direction: column;
-        margin-top: 80px;
-        padding-left: 0; 
+        margin-top: 50px;
+        /* padding-left: 0;  */
         width: 90%;  
     }
     
     .cards {
-        box-shadow: 0px 2px 5px rgb(218, 216, 216);
+        text-align: center;
+        box-shadow: 1px 1px 5px rgb(218, 216, 216);
         border-radius: 12px;
-        margin: 12px;
+        margin: 20px 15px;
         height: 100vh;
         display:flex;
         flex-direction: column;
@@ -396,18 +397,18 @@ nav button:hover{
         position: relative;
         width:70%;
     }
+
+    #your-users, #grow-together {
+        flex-direction: column-reverse;
+    }
     
     #img, #desc {
-        width: 90%;
-        
+        width: 100%;
+        align-content: center;
+        margin: auto;        
     } 
     
     
-    #desc{
-        align-content: center;
-        margin: auto;
-        height: 80%;
-    }
     
     #desc h3 {
         margin: 20px 0;
@@ -422,18 +423,14 @@ nav button:hover{
 
     #flowing-conversations h3{
         margin-top: 50px;
-        margin-bottom: 0;
     }
 
-    #flowing-conversations {
-        margin-bottom: 0;
-    }
     
     .cards img {
         width: 100%;
         height: 100%;
         justify-self: center;
-        margin: auto;
+        margin: auto 0;
     }
     
     footer {
@@ -452,7 +449,7 @@ nav button:hover{
         padding: 2em 0;
         height: 20%;
         margin: auto;
-        top: -300px;
+        top: -350px;
         bottom: 500px;
         box-shadow:  0px 2px 5px hsla(192, 100%, 9%, 0.452); 
         right: 0;
@@ -483,7 +480,7 @@ nav button:hover{
         flex-direction: column;
         justify-items: center;
         margin: 40px auto;
-        padding-top: 90px;
+        padding-top: 120px;
         width: 90%;
         font-family: "Open Sans";
         font-weight: 400;
@@ -525,7 +522,13 @@ nav button:hover{
     }
     
     #col-2 p, #col-3 p{
-        margin: 12px;
+        margin-top: 20px;
+    }
+    #col-1{
+        text-align:left;
+        /* justify-content: start; */
+        margin: auto;
+        margin-bottom: 20px;
     }
     #col-4{
         margin: auto;
