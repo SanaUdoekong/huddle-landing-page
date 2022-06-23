@@ -357,18 +357,20 @@ nav button:hover{
         margin: auto;
         margin-right: 30px;
         align-content: flex-end;
+        justify-content: center;
+        text-align: center;
     }
     
     #intro-text h1{
         margin: 10px 0;
+        text-align: center;
         font-family: Poppins;
         font-size: 24px;
-        text-align: left;
     }
     
     #intro-text p{
         margin: 20px 0;
-        text-align: left;
+        text-align: center;
         font-family: "Open Sans";
         font-weight: 400;
     }
@@ -472,6 +474,10 @@ nav button:hover{
         font-family: "Poppins";
         font-weight: 700;
         font-size: 14px;
+    }
+
+    #floating-box h2 {
+        margin: 20px;
     }
     
     #floating-box button {
@@ -625,6 +631,8 @@ nav button:hover{
         margin: auto;
         margin-right: 30px;
         align-content: flex-end;
+        justify-content: center;
+        text-align: center;
     }
     
     #intro-text h1{
