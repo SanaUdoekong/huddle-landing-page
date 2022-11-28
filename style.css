@@ -133,7 +133,7 @@ nav button:hover{
         box-shadow: 1px 1px 5px rgb(218, 216, 216);
         border-radius: 12px;
         margin: 12px;
-        height: 40vh;
+        height: 45vh;
         display:grid;
         grid-template-columns: 1fr 1fr;
         padding: 5em;
