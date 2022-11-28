@@ -139,8 +139,8 @@ nav button:hover{
         padding: 5em;
         position: relative;
         justify-self: center;
-        align-content: center;
-        padding-top: 0;   
+/*         align-content: center; */
+/*         padding-top: 30;    */
     }
     
     #img, #desc {
